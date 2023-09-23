@@ -1,0 +1,60 @@
+.container{
+    border: 3px solid black;
+    border-radius: 30px;
+    margin: 10vh 50vh;
+    transition: transform 0.5s; 
+}
+
+.container:hover {
+    transform: scale(1.04); 
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .signUP{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 90%;
+
+  }
+.email{
+    display: flex;
+    padding: 3vh;
+}
+
+.email_label{
+    font-size:2vh ;
+    font-weight:bold;
+}
+
+.email_input {
+    
+  height: auto;
+  width: 50vh;
+  margin-left: 3vh;
+}
+
+.password_input{
+    height: auto;
+  width: 50vh;
+  margin-left: 4vh;
+}
+.checkbox{
+display: flex;
+justify-content: center;
+
+}
+
+.l{
+  display: flex;
+justify-content: center;
+}
+
+.f{
+  height: 3vh;
+  text-align: center;
+  font-size: large;
+  background-color: rgb(58, 55, 55);
+  color: bisque;
+  border-radius: 40%;
+ 
+}

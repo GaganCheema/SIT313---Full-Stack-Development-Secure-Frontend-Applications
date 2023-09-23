@@ -1,0 +1,54 @@
+
+.container2{
+    border: 3px solid black;
+    border-radius: 30px;
+    margin: 8vh 50vh; 
+    transition: transform 0.5s;  
+}
+
+.container2:hover {
+    transform: scale(1.04); 
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .title{
+    display: flex;
+    margin: 2%;
+    margin-left: 27vh;
+    padding-top: 1vh;
+  }
+.n{
+
+        display: flex;
+        padding: 2vh;
+    
+}
+
+.N_label{
+    font-size:2vh ;
+    font-weight:bold;
+}
+
+.name_input{
+    height: auto;
+    width: 45vh;
+    margin-left: 14.4vh;
+}
+
+.E_input{
+    height: auto;
+    width: 45.2vh;
+    margin-left: 14.6vh;
+}
+
+.p_input{
+    height: auto;
+    width: 45vh;
+    margin-left: 11vh;
+}
+
+.c_p_input{
+    height: auto;
+    width: 45vh;
+    margin-left: 3.6vh;
+}
